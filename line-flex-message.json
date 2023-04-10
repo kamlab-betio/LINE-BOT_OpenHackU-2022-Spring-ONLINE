@@ -1,0 +1,220 @@
+{
+  "type": "flex",
+  "altText": "this is a flex message calendar",
+  "contents": {
+    "type": "bubble",
+    "size": "giga",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "text",
+          "text": "カレンダー",
+          "color": "#FFFFFF",
+          "weight": "bold",
+          "style": "normal",
+          "decoration": "none"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [ 
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "md",
+          "contents": [
+              {
+                "type": "text",
+                "text": "2月",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "日",
+                "align": "center"
+              }
+          ]
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "username",
+              "align": "start",
+              "decoration": "none",
+              "style": "normal",
+              "weight": "bold"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "md",
+          "contents": [
+              {
+                  "type": "text",
+                  "text": " ",
+                  "align": "center"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "◯",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "×",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "◯",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "◯",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "◯",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                  "type": "text",
+                  "text": "◯",
+                  "align": "center",
+                  "weight": "bold"
+              },
+              {
+                  "type": "separator"
+              },
+              {
+                "type": "text",
+                "text": "◯",
+                "align": "center",
+                "weight": "bold"
+              }
+          ]
+      }
+      ],
+      "margin": "none"
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "詳細データ",
+                "align": "end",
+                "decoration": "underline",
+                "action": {
+                    "type": "uri",
+                    "label": "action",
+                    "uri": "https://linecorp.com/"
+                }
+            }
+        ],
+        "action": {
+            "type": "uri",
+            "label": "action",
+            "uri": "https://linecorp.com/"
+        }
+    },
+    "styles": {
+        "header": {
+            "separator": false,
+            "backgroundColor": "#00B900"
+        }
+    }
+  }
+}
